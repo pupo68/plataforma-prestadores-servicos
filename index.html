@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8 para compatibilidade com acentos e caracteres especiais -->
+    <meta charset="UTF-8">
+    <title>Serviço De Fotografia</title>
+    
+    <!-- Link para o arquivo de estilo CSS, responsável pela formatação visual da página -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon para o site, exibido na aba do navegador -->
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    
+    <!-- Script JavaScript externo. Atributo defer para garantir que o script seja carregado após o HTML -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Barra de navegação fixa no topo, com links para as páginas principais -->
+    <div class="navbar">
+        <a class="active" href="index.html">Início</a> <!-- Link ativo para a página inicial -->
+        <a href="form.html">Contato</a> <!-- Link para a página de contato -->
+        <a href="sobre.html">Sobre</a> <!-- Link para a página "Sobre" -->
+        <a href="login.html">Login</a><!--login -->
+    </div>
+
+    <!-- Seção principal da página, que inclui um título e um carrossel de imagens -->
+    <section class="hero" id="home">
+        <h1>Eventos</h1> <!-- Título principal da seção -->
+
+        <!-- Contêiner para o carrossel, que centraliza o conteúdo e ajusta os elementos de navegação -->
+        <div class="carousel-container">
+            <!-- Botão de controle para navegar para o item anterior no carrossel -->
+            <button id="prev" class="carousel-control">⟵</button>
+            
+            <!-- Estrutura do carrossel com itens individuais -->
+            <div class="carousel">
+                
+                <!-- Cada item do carrossel contém uma imagem e um título correspondente -->
+                
+                <!-- Item 1: Casamentos -->
+                <div class="carousel-item active">
+                    <!-- Imagem representando o serviço de fotografia de casamentos -->
+                    <img src="images/casamentos.jpg" alt="Casamentos">
+                    <!-- Título exibido sobre a imagem ativa do carrossel -->
+                    <div class="carousel-title">Casamentos</div>
+                </div>
+
+                <!-- Item 2: Aniversário de 15 Anos -->
+                <div class="carousel-item">
+                    <!-- Imagem representando o serviço de fotografia de aniversário de 15 anos -->
+                    <img src="images/15.jpg" alt="15 Anos">
+                    <div class="carousel-title">Aniversário de 15 Anos</div>
+                </div>
+
+                <!-- Item 3: Eventos Corporativos -->
+                <div class="carousel-item">
+                    <!-- Imagem representando o serviço de fotografia para eventos corporativos -->
+                    <img src="images/eventos.jpg" alt="Eventos Corporativos">
+                    <div class="carousel-title">Eventos Corporativos</div>
+                </div>
+
+                <!-- Item 4: Fotografia Familiar -->
+                <div class="carousel-item">
+                    <!-- Imagem representando o serviço de fotografia familiar -->
+                    <img src="images/familia.jpg" alt="Fotografia Familiar">
+                    <div class="carousel-title">Fotografia Familiar</div>
+                </div>
+
+                <!-- Item 5: Retratos Profissionais -->
+                <div class="carousel-item">
+                    <!-- Imagem representando o serviço de retratos profissionais -->
+                    <img src="images/retratos.jpg" alt="Retratos Profissionais">
+                    <div class="carousel-title">Retratos Profissionais</div>
+                </div>
+            </div>
+
+            <!-- Botão de controle para navegar para o próximo item no carrossel -->
+            <button id="next" class="carousel-control">⟶</button>
+        </div>
+        
+        <!-- Descrição dinâmica do carrossel, que exibe informações sobre o item ativo -->
+        <p id="carousel-description">Capturamos o amor e a emoção do seu dia especial com imagens atemporais.</p>
+    </section>
+
+</body>
+</html>

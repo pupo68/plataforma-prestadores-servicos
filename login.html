@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8 para compatibilidade com acentos e caracteres especiais -->
+    <meta charset="UTF-8">
+    <title>Serviço De Fotografia - Login</title>
+    
+    <!-- Link para o arquivo de estilo CSS, responsável pela formatação visual da página -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon para o site, exibido na aba do navegador -->
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Barra de navegação fixa no topo, com links para as páginas principais -->
+    <div class="navbar">
+        <a href="index.html">Início</a>
+        <a href="form.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a class="active" href="login.html">Login</a>
+    </div>
+
+    <!-- Formulário de login centralizado -->
+    <main class="login-section">
+        <h1>Login</h1>
+        <p>Entre com seus dados para acessar o sistema.</p>
+        <form action="login.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="register.html">Crie uma agora</a></p>
+    </main>
+</body>
+</html>

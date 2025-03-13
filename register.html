@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Serviço De Fotografia - Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Início</a>
+        <a href="form.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <main class="login-section">
+        <h1>Crie sua Conta</h1>
+        <p>Preencha os dados abaixo para se registrar.</p>
+        <form action="register.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Crie sua senha">
+
+            <label for="senha_confirmacao">Confirme a Senha:</label>
+            <input type="password" id="senha_confirmacao" name="senha_confirmacao" required placeholder="Confirme sua senha">
+
+            <button type="submit">Registrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+    </main>
+</body>
+</html>
