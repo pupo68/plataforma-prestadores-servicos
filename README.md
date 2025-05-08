@@ -10,7 +10,7 @@ Uma plataforma web que permite que prestadores de serviços gerenciem seus servi
 - **Validação de usuários**: Sistema de login e autenticação seguro.
 - **Controle de acesso**: Diferentes níveis de permissão para usuários.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas:
 - **Front-end**: HTML, CSS, JavaScript
 - **Back-end**: PHP
 - **Banco de dados**: MySQL
