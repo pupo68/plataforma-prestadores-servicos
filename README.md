@@ -3,7 +3,7 @@
 ## Descrição
 Uma plataforma web que permite que prestadores de serviços gerenciem seus serviços e recebam solicitações de clientes. O sistema inclui um dashboard interativo, integração com banco de dados relacionais, validação de usuários e controle de acesso.
 
-## Funcionalidades
+## Funcionalidades:
 - **Dashboard interativo**: Visualização de dados e métricas importantes.
 - **Gerenciamento de serviços**: Cadastro, edição e exclusão de serviços oferecidos.
 - **Solicitações de clientes**: Recebimento e gerenciamento de solicitações.
